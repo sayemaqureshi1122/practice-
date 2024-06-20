@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilory";
+}
+ html ,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:lightgrey;
+}
+#nav{
+    height:60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    gap: 30px;
+    padding: 0 30px;
+}
+# nav h4 {
+    font-size: 20px;
+
+}
+#center{
+    width: 100%;
+    background-color:white;
+    padding: 10px 40px;
+}
+#center h1 {
+    font-size: 70px;
+    font-weight: 500;
+    padding-right: 40px;
+    line-height: 80px;
+    
+}
+#center-in{
+    height:200px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-in {
+    font-size: 20px;
+    font-weight:600;
+}
+#right{
+ width: 20%;
+ height: 100%;
+
+}
+.ele{
+    margin:5px;
+    padding: 10px 0px;
+    
+}
+.ele a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    border-bottom: 2px black solid;
+
+}
